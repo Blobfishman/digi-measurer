@@ -1,3 +1,5 @@
 *.ino
 bin/
 bin/*
+*.lock
+target/
