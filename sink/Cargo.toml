@@ -1,5 +1,5 @@
 [package]
-name = "server"
+name = "sink"
 version = "0.1.0"
 authors = ["Blobfishman <lpkre@protonmail.com>"]
 edition = "2018"
