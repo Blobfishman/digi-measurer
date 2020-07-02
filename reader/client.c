@@ -54,10 +54,11 @@ void loop()
 
   // Display the measurement, with correct amount of decimal places and in/mm
   Serial.print(measurement, mydata[11]);
-  if(mydata[12])
-    Serial.print(" in\n");
-  else
-    Serial.print(" mm\n");
+  // if(mydata[12])
+  //   Serial.print(" in\n");
+  // else
+  //   Serial.print(" mm\n");
+  Serial.print("\n");
 
   digitalWrite(req,LOW);
   delay(100);
